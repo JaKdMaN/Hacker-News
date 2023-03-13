@@ -1,0 +1,53 @@
+.item {
+  max-width: 700px;
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px 0;
+  //border-bottom: 1px solid #6e6e6e;
+
+  &__author {
+    margin-bottom: 5px;
+  }
+
+  &__text {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 50px;
+    margin-top: 20px;
+
+    &:before {
+      position: absolute;
+      display: block;
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #FFFFFF;
+      top: 50%;
+      transform: translateY(-50%);
+      left: -30px;
+    }
+  }
+
+  &__subComments {
+    margin-left: 50px;
+
+    &_buttons {
+      text-align: right;
+
+      &_btn {
+        color: inherit;
+        background: transparent;
+        outline: none;
+        border: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+
+}

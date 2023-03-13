@@ -1,0 +1,62 @@
+.item {
+  position: relative;
+  min-height: 100vh;
+  height: 100%;
+  padding: 25px;
+  color: #FFFFFF;
+  background: #1A2027;
+
+  &__breadCrumbs {
+    margin-left: 25px;
+
+    &_link {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        color: #FFFFFF;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__mainInfo {
+    margin-top: 30px;
+    text-align: center;
+
+    &_title {
+      font-weight: 800;
+    }
+
+    &_date {
+      margin-top: 10px;
+    }
+  }
+
+  &__newsInfo {
+    margin: 100px 0;
+
+    &_author {
+      display: inline-block;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    &_url {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+}
+
+.loader{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

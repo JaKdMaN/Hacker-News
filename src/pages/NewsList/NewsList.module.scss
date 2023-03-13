@@ -1,0 +1,17 @@
+.list{
+  position: relative;
+  padding: 10px 0;
+
+  &__btn {
+    position: fixed;
+    top: 90vh;
+    right: 150px;
+  }
+}
+
+.loader{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

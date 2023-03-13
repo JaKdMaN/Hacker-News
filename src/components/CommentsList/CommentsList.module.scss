@@ -1,0 +1,9 @@
+.item{
+  position: relative;
+
+  &__refreshBtn {
+    position: fixed;
+    top: 90vh;
+    right: 150px;
+  }
+}

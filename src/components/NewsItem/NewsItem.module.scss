@@ -1,0 +1,11 @@
+.item {
+  margin: 10px 0;
+  &__score {
+    margin: 10px 0;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+}
